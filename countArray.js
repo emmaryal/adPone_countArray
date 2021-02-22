@@ -1,7 +1,6 @@
 function countChar(string) {
-  let count = [];
-  let splitStr = string.split("");
-  let a = (b = c = 0);
+  const splitStr = string.split("");
+  let a = b = c = 0;
 
   let count_a = ["a", a];
   let count_b = ["b", b];
@@ -18,7 +17,7 @@ function countChar(string) {
         count_c[1]++;
         break;
       default:
-        console.log("default");
+        break;
     }
   return (count = [count_a, count_b, count_c]);
 }
