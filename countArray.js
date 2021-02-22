@@ -1,7 +1,7 @@
 function countChar(string) {
   let count = [];
   let splitStr = string.split("");
-  let a = (b = c = 0);
+  let a = b = c = 0;
 
   let count_a = ["a", a];
   for (i = 0; i < string.length; i++) if (splitStr[i] === "a") count_a[1]++;
